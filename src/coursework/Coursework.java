@@ -4,6 +4,8 @@
  */
 package coursework;
 
+import coursework.gui.GUI;
+
 /**
  *
  * @author Hanyuu
@@ -14,6 +16,6 @@ public class Coursework {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        GUI.getInstance().setVisible(true);
     }
 }
